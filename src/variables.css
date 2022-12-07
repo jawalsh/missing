@@ -20,7 +20,7 @@
 	--bad-graphical-fg: var(--red-6);
 	--warn-graphical-fg: var(--yellow-6);
 	
-	--bg: var(--gray-0); /* Page background. */
+	--bg: #ffffff; /* Page background. */
 	--box-bg: var(--plain-bg); /* Background for blocks: cards, admonitions etc. */
 	--interactive-bg: var(--gray-4); /* Background for interactive elements */
 
