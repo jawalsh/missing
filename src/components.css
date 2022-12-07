@@ -17,6 +17,18 @@ aside {
     border: 1px solid var(--graphical-fg);
 }
 
+.bibl {
+	/***
+	 Meant for use bibliographies, to create a hanging indent.
+	
+	<div class="bibl">Layton, Bob. 1975. “A Bullseye View.” *Charlton Bullseye* 1 (1): 2.</div>
+	
+	 ***/
+    display: block;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
 .titlebar {
     margin-inline: calc(0px - var(--gap));
     margin-block-end: calc(0px - var(--gap));
